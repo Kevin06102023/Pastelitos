@@ -46,8 +46,9 @@ main {
 }
 
 .producto img {
-    max-width: 100%;
-    height: auto;
+    width: 200px; /* Ajusta el ancho a 200px, puedes cambiarlo según lo que necesites */
+    height: 150px; /* Ajusta la altura a 150px, puedes cambiarlo según lo que necesites */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
     border-radius: 8px;
     margin-bottom: 10px;
 }
